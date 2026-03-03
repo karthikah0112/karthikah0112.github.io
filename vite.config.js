@@ -5,5 +5,16 @@ export default defineConfig(() => {
   const isUserPagesRepo = repository.endsWith('.github.io')
   const base = repository && !isUserPagesRepo ? `/${repository}/` : '/'
 
-  return { base }
+  return {
+    base,
+    build: {
+      rollupOptions: {
+        output: {
+          entryFileNames: 'assets/index.js',
+          chunkFileNames: 'assets/[name].js',
+          assetFileNames: 'assets/[name][extname]',
+        },
+      },
+    },
+  }
 })
