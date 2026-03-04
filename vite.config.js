@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig(() => {
   const repository = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? ''
@@ -6,6 +7,7 @@ export default defineConfig(() => {
   const base = repository && !isUserPagesRepo ? `/${repository}/` : '/'
 
   return {
+    plugins: [react()],   // 👈 IMPORTANT
     base,
     build: {
       rollupOptions: {
