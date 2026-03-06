@@ -478,7 +478,7 @@
   .skill-networking::before {
     background:
       linear-gradient(140deg, rgba(0, 212, 255, 0.32), rgba(6, 10, 20, 0.08)),
-      url('images/skills/networking-datacenter.jpg');
+      url('../images/skills/networking-datacenter.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -486,7 +486,7 @@
   .skill-cybersecurity::before {
     background:
       linear-gradient(140deg, rgba(124, 58, 237, 0.36), rgba(6, 10, 20, 0.12)),
-      url('images/skills/cybersecurity-hacking.jpg');
+      url('../images/skills/cybersecurity-hacking.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -494,7 +494,7 @@
   .skill-systems::before {
     background:
       linear-gradient(140deg, rgba(16, 185, 129, 0.28), rgba(6, 10, 20, 0.12)),
-      url('images/skills/systems-windows-pc.jpg');
+      url('../images/skills/systems-windows-pc.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -502,7 +502,7 @@
   .skill-tools::before {
     background:
       linear-gradient(140deg, rgba(245, 158, 11, 0.3), rgba(6, 10, 20, 0.12)),
-      url('images/skills/tools-operations.jpg');
+      url('../images/skills/tools-operations.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -510,7 +510,7 @@
   .skill-service-desk::before {
     background:
       linear-gradient(140deg, rgba(56, 189, 248, 0.3), rgba(6, 10, 20, 0.12)),
-      url('images/skills/service-desk.jpg');
+      url('../images/skills/service-desk.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -518,7 +518,7 @@
   .skill-languages::before {
     background:
       linear-gradient(140deg, rgba(244, 114, 182, 0.26), rgba(6, 10, 20, 0.12)),
-      url('images/skills/languages-communication.jpg');
+      url('../images/skills/languages-communication.jpg');
     background-size: cover;
     background-position: center;
   }
